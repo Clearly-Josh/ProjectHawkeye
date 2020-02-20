@@ -1,2 +1,2 @@
 language = "python3"
-run = "python Seven.py"
+run = "python Reset.py"
