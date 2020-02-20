@@ -12,5 +12,5 @@ Water = [__, __]
 #Air Order: clean, low-clean, atmospheric-stability
 Air = [__, __, __]
 
-if ((clone_intelligence > intelligence) or (low_intelligence > clone_intelligence)):
-  print("Stinky")
+        #if ((clone_intelligence > intelligence) or (low_intelligence > clone_intelligence)):
+
