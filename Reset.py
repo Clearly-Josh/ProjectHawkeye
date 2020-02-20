@@ -6,14 +6,11 @@ Clones = [__, __, __, __, __, __, __]
 #Food Order: healthy, unhealthy, poisonous!
 Food = [__, __, __]
 
-#water
-low_clean = 10
+#Water Order: clean, low-clean
+Water = [__, __]
 
-#air
-low_clean = 20
-atomsphere_stability = 30
-
-clone_intelligence = 95
+#Air Order: clean, low-clean, atmospheric-stability
+Air = [__, __, __]
 
 if ((clone_intelligence > intelligence) or (low_intelligence > clone_intelligence)):
   print("Stinky")
