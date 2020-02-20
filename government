@@ -1,6 +1,7 @@
 import time
 import random
 
+start_time = time.time()
 president = 0
 clone_num = 0
 while president <= .926:
@@ -695,7 +696,7 @@ print(commerce)
 time.sleep(2)
 print(general)
 
-print(time.time)
+print(time.time()-start_time())
 President = "President"
 VP = "Vice President"
 sec_of_state = "Secretary of State"
