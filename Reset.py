@@ -1,10 +1,10 @@
-#Clone Order: strength, intellect, charisma, low-strength, low-intellect, low-charisma, disabilities, 
-Clones = [100,25,85,20,75,30,100,10,2]
+#Clone Order: strength, intellect, charisma, low-strength, low-intellect, low-charisma, disabilities! 
 
-#food
-healthy = 50
-unhealthy = 20
-poisonous = 0
+Clones = [__, __, __, __, __, __, __]
+
+
+#Food Order: healthy, unhealthy, poisonous!
+Food = [__, __, __]
 
 #water
 low_clean = 10
