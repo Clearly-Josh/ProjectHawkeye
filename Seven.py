@@ -1,1 +1,9 @@
-print("Seven is running..")
+import test
+test
+#execfile('test.py')
+
+
+
+
+
+
