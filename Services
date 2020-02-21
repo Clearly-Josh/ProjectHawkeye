@@ -7,14 +7,13 @@ clone_num = 0
 while executive <= .926:
   first = "Clone"#input("What is your first name?") 
   last = "Boi"#input("What is your last name?")
-  empathy = 10 
-  resilience = 10
+  ability to learn from mistakes = 10 
+  relationship building = 10
   communication = 10
-  openness = 10
+  Realistic optimism = 10
   relaxation = 10
   impulse_control = 10
   IQ = 10
-  FDR_quality  = 10
   leadership = 10
   kindness = 10
   humor = 10
@@ -22,6 +21,9 @@ while executive <= .926:
   loyalty = 10
   empowerment = 10
   charisma = 10
+  listening = 10
+  adaptation = 10
+  outside thinking = 10
 
   Threshold_1 = 139
   print(" ")
