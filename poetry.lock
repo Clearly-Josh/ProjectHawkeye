@@ -1,0 +1,14 @@
+[[package]]
+category = "main"
+description = ""
+name = "converters"
+optional = false
+python-versions = ">=3.6,<4.0"
+version = "0.0.1"
+
+[metadata]
+content-hash = "303066b6538692af5c1cfdb48f9c03de6fba83ad233a80d8a11c95e7a4d1f4b3"
+python-versions = "^3.7"
+
+[metadata.hashes]
+converters = ["1dc6e4e3dbd2bba8fd2dfcff6fc8b9713bdcd3c22130b11986c240b7b2060f97", "bbbf4266032f1cd5a10d8e8a252fba139dea1fb93075606ab3116131a59dd920"]
