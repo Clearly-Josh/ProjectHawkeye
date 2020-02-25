@@ -5,7 +5,7 @@ import random
 start_time = time.time()
 executive = 0
 clone_num = 0
-while executive <= .26:
+while executive <= .926:
   first = "Clone"#input("What is your first name?") 
   last = "Boi"#input("What is your last name?")
   ability_to_learn_from_mistakes = 10 
@@ -98,13 +98,13 @@ while executive <= .26:
   clone_num = (clone_num + 1)
   print(clone_num)
   executive = percent
-  if percent >= .626:
+  if percent >= .926:
     ceo = ("Chief Exective Officer candidate is clone number " , clone_num)
 #///////////////////////////////////////////
 #///////////////////////////////////////////
 executive = 0
 clone_num = 0
-while executive <= .1:
+while executive <= .91:
   first = "Clone"#input("What is your first name?") 
   last = "Boi"#input("What is your last name?")
   ability_to_learn_from_mistakes = 10 
@@ -197,13 +197,13 @@ while executive <= .1:
   clone_num = (clone_num + 1)
   print(clone_num)
   executive = percent
-  if percent >= .1:
+  if percent >= .91:
     cfo = (" Chief Financial Officer candidate is clone number " , clone_num)
 #///////////////////////////////////////////
 #///////////////////////////////////////////
 executive = 0
 clone_num = 0
-while executive <= .0001:
+while executive <= .9:
   first = "Clone"#input("What is your first name?") 
   last = "Boi"#input("What is your last name?")
   ability_to_learn_from_mistakes = 10 
@@ -296,13 +296,13 @@ while executive <= .0001:
   clone_num = (clone_num + 1)
   print(clone_num)
   executive = percent
-  if percent >= .0001:
+  if percent >= .9:
     cio = ("Cheif Information Officer candidate is clone number " , clone_num)
 #///////////////////////////////////////////
 #///////////////////////////////////////////
 executive = 0
 clone_num = 0
-while executive <= .0001:
+while executive <= .9:
   first = "Clone"#input("What is your first name?") 
   last = "Boi"#input("What is your last name?")
   ability_to_learn_from_mistakes = 10 
@@ -395,13 +395,13 @@ while executive <= .0001:
   clone_num = (clone_num + 1)
   print(clone_num)
   executive = percent
-  if percent >= .0001:
+  if percent >= .9:
     cmo = ("Chief Market Officer candidate is clone number " , clone_num)
 #///////////////////////////////////////////
 #///////////////////////////////////////////
 executive = 0
 clone_num = 0
-while executive <= .0001:
+while executive <= .9:
   first = "Clone"#input("What is your first name?") 
   last = "Boi"#input("What is your last name?")
   ability_to_learn_from_mistakes = 10 
@@ -494,7 +494,7 @@ while executive <= .0001:
   clone_num = (clone_num + 1)
   print(clone_num)
   executive = percent
-  if percent >= .0001:
+  if percent >= .9:
     cem = ("Cheif Executive Manager candidate is clone number " , clone_num)
 #///////////////////////////////////////////
 #///////////////////////////////////////////
@@ -512,7 +512,7 @@ print(cmo)
 time.sleep(2)
 print(cem)
 
-print(time.time()-start_time)
+print("--- %s seconds ---" % (time.time() - start_time))
 
 cheif_exe_off = "Chief Executive Officer"
 cheif_fin_off = "Chief Financial Officer"
@@ -522,3 +522,6 @@ chief_exe_man = "Chief Executive Manager"
 
 #services()
 
+import time
+start_time = time.time()
+main()
