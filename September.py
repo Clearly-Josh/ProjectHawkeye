@@ -1,2 +1,2 @@
 print("Hello")
-input("man i hope this works")
+print("Brita filters don't have a big enough filter. End Report")
