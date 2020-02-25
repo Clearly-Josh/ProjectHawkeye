@@ -20,10 +20,23 @@ for i in range(0, n):
   Clones.append(ele)
 print(Clones)
 
+if (Clones[0] >= 90):
+  print ("Clones Strength - Uh-Oh")
+elif (Clones[0] >= 25):
+  print ("Clones Strength - Yes")
+else:
+  print("Clones Strength - Uh Oh")
 
+if (Clones[1] >= 90):
+  print ("Clones Intellect - Uh Oh")
+elif (Clones[1] >= 25):
+  print ("Clones Intellect - Yes")
+else:
+  print("Clones Intellect - Uh-Oh")
 
-
-
-
-
-
+if (Clones[2] >= 90):
+  print ("Clones Charisma - Uh-Oh")
+elif (Clones[2] >= 25):
+  print ("Clones Charisma - Yes")
+else:
+  print("Clones Charisma - Uh-Oh")
