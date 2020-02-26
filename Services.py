@@ -2,11 +2,10 @@ def services():
   import time
   import random
 
-
   start_time = time.time()
   executive = 0
   clone_num = 0
-  while executive <= .1:
+  while executive <= .926:
     first = "Clone"#input("What is your first name?") 
     last = "Boi"#input("What is your last name?")
     ability_to_learn_from_mistakes = 10 
@@ -27,7 +26,7 @@ def services():
     adaptation = 10
     outside_thinking = 10
 
-    Threshold_1 = 17
+    Threshold_1 = 157
     print(" ")
     print(" ")
     print(" ")
@@ -99,13 +98,13 @@ def services():
     clone_num = (clone_num + 1)
     print(clone_num)
     executive = percent
-    if percent >= .1:
+    if percent >= .926:
       ceo = ("Chief Exective Officer candidate is clone number " , clone_num)
   #///////////////////////////////////////////
   #///////////////////////////////////////////
   executive = 0
   clone_num = 0
-  while executive <= .1:
+  while executive <= .91:
     first = "Clone"#input("What is your first name?") 
     last = "Boi"#input("What is your last name?")
     ability_to_learn_from_mistakes = 10 
@@ -126,7 +125,7 @@ def services():
     adaptation = 10
     outside_thinking = 10
 
-    Threshold_1 = 17
+    Threshold_1 = 155
     print(" ")
     print(" ")
     print(" ")
@@ -198,13 +197,13 @@ def services():
     clone_num = (clone_num + 1)
     print(clone_num)
     executive = percent
-    if percent >= .1:
+    if percent >= .91:
       cfo = (" Chief Financial Officer candidate is clone number " , clone_num)
   #///////////////////////////////////////////
   #///////////////////////////////////////////
   executive = 0
   clone_num = 0
-  while executive <= .1:
+  while executive <= .9:
     first = "Clone"#input("What is your first name?") 
     last = "Boi"#input("What is your last name?")
     ability_to_learn_from_mistakes = 10 
@@ -225,7 +224,7 @@ def services():
     adaptation = 10
     outside_thinking = 10
 
-    Threshold_1 = 17
+    Threshold_1 = 153
     print(" ")
     print(" ")
     print(" ")
@@ -297,13 +296,13 @@ def services():
     clone_num = (clone_num + 1)
     print(clone_num)
     executive = percent
-    if percent >= .1:
+    if percent >= .9:
       cio = ("Cheif Information Officer candidate is clone number " , clone_num)
   #///////////////////////////////////////////
   #///////////////////////////////////////////
   executive = 0
   clone_num = 0
-  while executive <= .1:
+  while executive <= .9:
     first = "Clone"#input("What is your first name?") 
     last = "Boi"#input("What is your last name?")
     ability_to_learn_from_mistakes = 10 
@@ -324,7 +323,7 @@ def services():
     adaptation = 10
     outside_thinking = 10
 
-    Threshold_1 = 17
+    Threshold_1 = 153
     print(" ")
     print(" ")
     print(" ")
@@ -396,13 +395,13 @@ def services():
     clone_num = (clone_num + 1)
     print(clone_num)
     executive = percent
-    if percent >= .1:
+    if percent >= .9:
       cmo = ("Chief Market Officer candidate is clone number " , clone_num)
   #///////////////////////////////////////////
   #///////////////////////////////////////////
   executive = 0
   clone_num = 0
-  while executive <= .1:
+  while executive <= .9:
     first = "Clone"#input("What is your first name?") 
     last = "Boi"#input("What is your last name?")
     ability_to_learn_from_mistakes = 10 
@@ -423,7 +422,7 @@ def services():
     adaptation = 10
     outside_thinking = 10
 
-    Threshold_1 = 17
+    Threshold_1 = 153
     print(" ")
     print(" ")
     print(" ")
@@ -495,7 +494,7 @@ def services():
     clone_num = (clone_num + 1)
     print(clone_num)
     executive = percent
-    if percent >= .1:
+    if percent >= .9:
       cem = ("Cheif Executive Manager candidate is clone number " , clone_num)
   #///////////////////////////////////////////
   #///////////////////////////////////////////
@@ -525,5 +524,4 @@ def services():
 
   import time
   start_time = time.time()
-  #main()
 services()
