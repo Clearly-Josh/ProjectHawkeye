@@ -10,6 +10,7 @@ while 10==10:
       if air==5:
          print("oh no")
     break
-#    if 
-if air==notbad:
-    pants=input("some plan")
+
+
+#if air==notbad:
+#    pants=input("some plan")
