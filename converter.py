@@ -1,19 +1,19 @@
+#Lot of code from https://kite.com/python/answers/how-to-convert-binary-string-to-and-from-ascii-text-in-python
+#Credit to Obabbamama
+#Thanks dad!
+
 k = open("Knowledge.txt","w+")
 
-def converter(what_toadd, knowledge_doc):
-  new4arg = ''.join(format(ord(i), 'b') for i in what_toadd)
-  knowledge_doc.write(new4arg)
-  k.close()
-
 what_toadd = "The meaning is 42."
+
+byte_array = "abc".encode()
+
 
 converter(what_toadd, k)
 getelfile = open("Knowledge.txt","r+")
 l = getelfile.read()
 
 print(l)
-#A lot of code coming up taken from https://www.geeksforgeeks.org/convert-binary-to-string-using-python/
-#Purpose is getting from binary back to string
 
 def BinaryToDecimal(binary): 
   string = int(binary, 2)
