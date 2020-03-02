@@ -1,5 +1,6 @@
-import Services
-import government
+#import Services
+#import government
+import pants
 
 #1 - Hazel
 #unknown call
@@ -28,9 +29,10 @@ import government
 
 
 #5 - Education
-#unknown call
+#pants.education(cloneNum)
 #Reset.education(educationReturn)
-
+cloneName = "Stacy"
+pants.education(cloneName)
 
 
 #6 - Continuity
