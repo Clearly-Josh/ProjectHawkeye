@@ -96,7 +96,7 @@ def government():
     clone_num = (clone_num + 1)
     print(clone_num)
     president = percent
-    if percent >= .626:
+    if percent >= .926:
       pres = ("President candidate is clone number " , clone_num)
   #///////////////////////////////////////////
   #///////////////////////////////////////////
