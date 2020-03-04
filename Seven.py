@@ -1,11 +1,15 @@
+import Defeated
+#print("Seven is running..")
+
+headBadGuy = "방탄소년단"
+
 import pants
 #import Services
 #import government
 
 #1 - Hazel
-#unknown call
 #Reset.Defense/Hazel(defense/hazelReturn)
-
+print(Defeated.bobStone(headBadGuy))
 
 
 #2 - Climate
@@ -39,5 +43,3 @@ pants.education(cloneName)
 #Services.services(unknownArg)
 #government.government(unknownArg)
 #Reset.continuity(continuityReturn)
-
-
