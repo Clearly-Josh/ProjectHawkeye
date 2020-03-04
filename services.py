@@ -1,3 +1,4 @@
+
 def services(): 
   import time
   import random
@@ -5,7 +6,7 @@ def services():
   start_time = time.time()
   executive = 0
   clone_num = 0
-  while executive <= .926:
+  while executive <= .9235:
     first = "Clone"#input("What is your first name?") 
     last = "Boi"#input("What is your last name?")
     ability_to_learn_from_mistakes = 10 
@@ -83,12 +84,18 @@ def services():
     #///////////////////////////////////////
     ZZZZZZZZZZZZZZZ=(random.choice([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])) 
     ZZZZZZZZZZZZZZZ=float(ZZZZZZZZZZZZZZZ)
+    #///////////////////////////////////////
+    ZZZZZZZZZZZZZZZZ=(random.choice([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])) 
+    ZZZZZZZZZZZZZZZZ=float(ZZZZZZZZZZZZZZZZ)
+      #///////////////////////////////////////
+    ZZZZZZZZZZZZZZZZZ=(random.choice([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])) 
+    ZZZZZZZZZZZZZZZZZ=float(ZZZZZZZZZZZZZZZZZ)
 
     print("Calculating . . .")
     #time.sleep(2)
 
     #////////////////// 
-    score = (Z + ZZ + ZZZ + ZZZZ + ZZZZZ + ZZZZZZ + ZZZZZZZ + ZZZZZZZZ + ZZZZZZZZZ + ZZZZZZZZZZ + ZZZZZZZZZZZ + ZZZZZZZZZZZZ + ZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZZ)
+    score = (Z + ZZ + ZZZ + ZZZZ + ZZZZZ + ZZZZZZ + ZZZZZZZ + ZZZZZZZZ + ZZZZZZZZZ + ZZZZZZZZZZ + ZZZZZZZZZZZ + ZZZZZZZZZZZZ + ZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZZZZ )
     #//////////////////
     print(score)
 
@@ -98,7 +105,7 @@ def services():
     clone_num = (clone_num + 1)
     print(clone_num)
     executive = percent
-    if percent >= .926:
+    if percent >= .9235:
       ceo = ("Chief Exective Officer candidate is clone number " , clone_num)
   #///////////////////////////////////////////
   #///////////////////////////////////////////
@@ -182,12 +189,18 @@ def services():
     #///////////////////////////////////////
     ZZZZZZZZZZZZZZZ=(random.choice([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])) 
     ZZZZZZZZZZZZZZZ=float(ZZZZZZZZZZZZZZZ)
+    #///////////////////////////////////////
+    ZZZZZZZZZZZZZZZZ=(random.choice([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])) 
+    ZZZZZZZZZZZZZZZZ=float(ZZZZZZZZZZZZZZZZ)
+      #///////////////////////////////////////
+    ZZZZZZZZZZZZZZZZZ=(random.choice([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])) 
+    ZZZZZZZZZZZZZZZZZ=float(ZZZZZZZZZZZZZZZZZ)
 
     print("Calculating . . .")
     #time.sleep(2)
 
     #////////////////// 
-    score = (Z + ZZ + ZZZ + ZZZZ + ZZZZZ + ZZZZZZ + ZZZZZZZ + ZZZZZZZZ + ZZZZZZZZZ + ZZZZZZZZZZ + ZZZZZZZZZZZ + ZZZZZZZZZZZZ + ZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZZ)
+    score = (Z + ZZ + ZZZ + ZZZZ + ZZZZZ + ZZZZZZ + ZZZZZZZ + ZZZZZZZZ + ZZZZZZZZZ + ZZZZZZZZZZ + ZZZZZZZZZZZ + ZZZZZZZZZZZZ + ZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZZZZ )
     #//////////////////
     print(score)
 
@@ -281,12 +294,18 @@ def services():
     #///////////////////////////////////////
     ZZZZZZZZZZZZZZZ=(random.choice([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])) 
     ZZZZZZZZZZZZZZZ=float(ZZZZZZZZZZZZZZZ)
+    #///////////////////////////////////////
+    ZZZZZZZZZZZZZZZZ=(random.choice([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])) 
+    ZZZZZZZZZZZZZZZZ=float(ZZZZZZZZZZZZZZZZ)
+      #///////////////////////////////////////
+    ZZZZZZZZZZZZZZZZZ=(random.choice([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])) 
+    ZZZZZZZZZZZZZZZZZ=float(ZZZZZZZZZZZZZZZZZ)
 
     print("Calculating . . .")
     #time.sleep(2)
 
     #////////////////// 
-    score = (Z + ZZ + ZZZ + ZZZZ + ZZZZZ + ZZZZZZ + ZZZZZZZ + ZZZZZZZZ + ZZZZZZZZZ + ZZZZZZZZZZ + ZZZZZZZZZZZ + ZZZZZZZZZZZZ + ZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZZ)
+    score = (Z + ZZ + ZZZ + ZZZZ + ZZZZZ + ZZZZZZ + ZZZZZZZ + ZZZZZZZZ + ZZZZZZZZZ + ZZZZZZZZZZ + ZZZZZZZZZZZ + ZZZZZZZZZZZZ + ZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZZZZ )
     #//////////////////
     print(score)
 
@@ -380,12 +399,18 @@ def services():
     #///////////////////////////////////////
     ZZZZZZZZZZZZZZZ=(random.choice([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])) 
     ZZZZZZZZZZZZZZZ=float(ZZZZZZZZZZZZZZZ)
+    #///////////////////////////////////////
+    ZZZZZZZZZZZZZZZZ=(random.choice([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])) 
+    ZZZZZZZZZZZZZZZZ=float(ZZZZZZZZZZZZZZZZ)
+      #///////////////////////////////////////
+    ZZZZZZZZZZZZZZZZZ=(random.choice([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])) 
+    ZZZZZZZZZZZZZZZZZ=float(ZZZZZZZZZZZZZZZZZ)
 
     print("Calculating . . .")
     #time.sleep(2)
 
     #////////////////// 
-    score = (Z + ZZ + ZZZ + ZZZZ + ZZZZZ + ZZZZZZ + ZZZZZZZ + ZZZZZZZZ + ZZZZZZZZZ + ZZZZZZZZZZ + ZZZZZZZZZZZ + ZZZZZZZZZZZZ + ZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZZ)
+    score = (Z + ZZ + ZZZ + ZZZZ + ZZZZZ + ZZZZZZ + ZZZZZZZ + ZZZZZZZZ + ZZZZZZZZZ + ZZZZZZZZZZ + ZZZZZZZZZZZ + ZZZZZZZZZZZZ + ZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZZZZ )
     #//////////////////
     print(score)
 
@@ -479,12 +504,18 @@ def services():
     #///////////////////////////////////////
     ZZZZZZZZZZZZZZZ=(random.choice([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])) 
     ZZZZZZZZZZZZZZZ=float(ZZZZZZZZZZZZZZZ)
+    #///////////////////////////////////////
+    ZZZZZZZZZZZZZZZZ=(random.choice([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])) 
+    ZZZZZZZZZZZZZZZZ=float(ZZZZZZZZZZZZZZZZ)
+      #///////////////////////////////////////
+    ZZZZZZZZZZZZZZZZZ=(random.choice([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])) 
+    ZZZZZZZZZZZZZZZZZ=float(ZZZZZZZZZZZZZZZZZ)
 
     print("Calculating . . .")
     #time.sleep(2)
 
     #////////////////// 
-    score = (Z + ZZ + ZZZ + ZZZZ + ZZZZZ + ZZZZZZ + ZZZZZZZ + ZZZZZZZZ + ZZZZZZZZZ + ZZZZZZZZZZ + ZZZZZZZZZZZ + ZZZZZZZZZZZZ + ZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZZ)
+    score = (Z + ZZ + ZZZ + ZZZZ + ZZZZZ + ZZZZZZ + ZZZZZZZ + ZZZZZZZZ + ZZZZZZZZZ + ZZZZZZZZZZ + ZZZZZZZZZZZ + ZZZZZZZZZZZZ + ZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZZZ + ZZZZZZZZZZZZZZZZZ )
     #//////////////////
     print(score)
 
@@ -520,8 +551,4 @@ def services():
   chief_mark_off = "Chief Market Officer"
   chief_exe_man = "Chief Executive Manager"
 
-  #services()
-
-  import time
-  start_time = time.time()
 services()

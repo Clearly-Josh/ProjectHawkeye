@@ -697,7 +697,7 @@ def government():
   time.sleep(2)
   print(general)
 
-  print(time.time()-start_time())
+  print("--- %s seconds ---" % (time.time() - start_time))
   President = "President"
   VP = "Vice President"
   sec_of_state = "Secretary of State"
