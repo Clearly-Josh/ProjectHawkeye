@@ -1,2 +1,2 @@
 language = "python3"
-run = "python converter.py"
+run = "python Seven.py"
