@@ -97,9 +97,10 @@ while dragon==9 :
       if (pants==thereisnoO2) :
         if ghost==0:
           print("\033[1;31;40m\n")
-          print("RED ALERT")
-          input("ACTIVATE FILTERS")
-          print("RED ALERT")
+          while(10==10):
+            print("RED ALERT")
+            print("ACTIVATE FILTERS")
+            print("RED ALERT")
           break
 
 					
