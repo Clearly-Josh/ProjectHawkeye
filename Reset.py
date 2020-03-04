@@ -33,8 +33,27 @@ def Clones():
     print("_______________________")
   ###########End#####################
 
-def Continuity
+def Continuity(lacapiton):
+  Hitler = 98.2
+  if (lacapiton > Hitler):
+    print("LEADER TOO POWERFUL. RESET INITIATED.")
+    del lacapiton
+  else:
+    print("LEADER SATISFACTORY")
+  
+def Climate():
+  if (Water >= 2)
+    print("WATER CONTAMINATED, RESET INITIATED")
+  else:
+    print("WATER CLEAN, CONTINUE")
+  if (Oxygen >= 2)
+    print("OXYGEN CONTAMINATED, RESET INITIATED")
+  else:
+    print("OXYGEN CLEAN, CONTINUE")
+  
+def Education():
 
-def Climate
-
-def Education 
+  if (education < 2)
+    print("NOT SMART ENOUGH. GO BACK TO SCHOOL")
+  else 
+    print("THE CLONES OF A HIGH STANDARD")
