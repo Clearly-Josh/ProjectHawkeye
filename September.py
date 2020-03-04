@@ -17,7 +17,7 @@ ehhO2="2"
 UHO2="3"
 DeadlyO2="4" 
 thereisnoO2="5"
-
+x=0
 
 while dragon==9 :
     pants=input("How is the water? ")
@@ -97,10 +97,12 @@ while dragon==9 :
       if (pants==thereisnoO2) :
         if ghost==0:
           print("\033[1;31;40m\n")
-          while(10==10):
+          while(x<100):
             print("RED ALERT")
             print("ACTIVATE FILTERS")
             print("RED ALERT")
+            x+=1
+            print(x)
           break
 
 					
