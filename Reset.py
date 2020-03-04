@@ -1,9 +1,10 @@
-def Clones():
+##Clones Beginning##
+def Clones(boi):
   ########Strength###################
-  if (Clones[0] >= 90):
+  if (boi[0] >= 90):
     print ("Clones Strength - Uh-Oh")
     print("_______________________")
-  elif (Clones[0] >= 25):
+  elif (boi[0] >= 25):
     print ("Clones Strength - Yes")
     print("_______________________")
   else:
@@ -11,10 +12,10 @@ def Clones():
     print("_______________________")
 
   #########Intellect################
-  if (Clones[1] >= 90):
+  if (boi[1] >= 90):
     print ("Clones Intellect - Uh-Oh")
     print("_______________________")
-  elif (Clones[1] >= 25):
+  elif (boi[1] >= 25):
     print ("Clones Intellect - Yes")
     print("_______________________")
   else:
@@ -22,38 +23,54 @@ def Clones():
     print("_______________________")
 
   #########Charisma##################
-  if (Clones[2] >= 90):
+  if (boi[2] >= 90):
     print ("Clones Charisma - Uh-Oh")
     print("_______________________")
-  elif (Clones[2] >= 25):
+  elif (boi[2] >= 25):
     print ("Clones Charisma - Yes")
     print("_______________________")
   else:
     print("Clones Charisma - Uh-Oh")  
     print("_______________________")
-  ###########End#####################
+##Clones End##
 
+##Continuity Begin##
 def Continuity(lacapiton):
+  lacapiton = 50
   Hitler = 98.2
   if (lacapiton > Hitler):
     print("LEADER TOO POWERFUL. RESET INITIATED.")
     del lacapiton
   else:
-    print("LEADER SATISFACTORY")
-  
-def Climate():
-  if (Water >= 2)
-    print("WATER CONTAMINATED, RESET INITIATED")
-  else:
-    print("WATER CLEAN, CONTINUE")
-  if (Oxygen >= 2)
-    print("OXYGEN CONTAMINATED, RESET INITIATED")
-  else:
-    print("OXYGEN CLEAN, CONTINUE")
-  
-def Education():
+    print("LEADER SATISFACTORY.")
+##Continuity End##
 
-  if (education < 2)
-    print("NOT SMART ENOUGH. GO BACK TO SCHOOL")
-  else 
-    print("THE CLONES OF A HIGH STANDARD")
+
+##Climate Beginning##
+def Climate(globalwarming):
+  Water = 12
+  Oxygen = 2
+  if (Water >= 2):
+    print("WATER CONTAMINATED, RESET INITIATED.")
+    del globalwarming
+  else:
+    print("WATER CLEAN, CONTINUE.")
+  if (Oxygen >= 2):
+    print("OXYGEN CONTAMINATED, RESET INITIATED.")
+    del globalwarming
+  else:
+    print("OXYGEN CLEAN, CONTINUE.")
+##Climate End##
+
+##Education Beginning##
+def Education(bigbrain):
+  Education = 1
+  if (Education < 2):
+    print("NOT SMART ENOUGH. GO BACK TO SCHOOL.")
+    del bigbrain
+  else:
+    print("CLONE OKAY.")
+##Education End##
+Continuity(lacapiton)
+Climate(globalwarming)
+Education(bigbrain)
