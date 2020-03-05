@@ -1,7 +1,7 @@
 import Reset
 import Defeated
 import Cloning
-#print("Seven is running..")
+print("Seven is running..")
 
 headBadGuy = "방탄소년단"
 
