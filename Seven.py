@@ -1,6 +1,6 @@
 import Reset
 import Defeated
-import Cloning
+import Clones
 print("Seven is running..")
 
 headBadGuy = "방탄소년단"
@@ -26,7 +26,7 @@ print(Defeated.bobStone(headBadGuy))
 #3 - Cloning
 #unkown call
 #Reset.Cloning(cloningReturn)
-clones = Cloning(100,2)
+clones = Clones.Cloning(100,2)
 
 
 #4 - Data
