@@ -1,14 +1,19 @@
 import Reset
+import Defeated
+import Cloning
+#print("Seven is running..")
+
+headBadGuy = "방탄소년단"
+
+import pants
 #import Services
 #import government
-import pants
 
 #Reset.reset1(str, int, chr)
 
 #1 - Hazel
-#unknown call
 #Reset.Defense/Hazel(defense/hazelReturn)
-
+print(Defeated.bobStone(headBadGuy))
 
 
 #2 - Climate
@@ -21,7 +26,7 @@ import pants
 #3 - Cloning
 #unkown call
 #Reset.Cloning(cloningReturn)
-
+clones = Cloning(100,2)
 
 
 #4 - Data
@@ -42,5 +47,4 @@ pants.education(cloneName)
 #Services.services(unknownArg)
 #government.government(unknownArg)
 #Reset.continuity(continuityReturn)
-
 
