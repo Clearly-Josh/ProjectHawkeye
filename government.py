@@ -707,4 +707,3 @@ def government():
   att_gen = "Attorney General"
 
 
-government()

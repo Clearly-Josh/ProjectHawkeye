@@ -6,8 +6,8 @@ import Cloning
 headBadGuy = "방탄소년단"
 
 import pants
-#import Services
-#import government
+import services
+import government
 
 #Reset.reset1(str, int, chr)
 
@@ -44,7 +44,7 @@ pants.education(cloneName)
 
 
 #6 - Continuity
-#Services.services(unknownArg)
-#government.government(unknownArg)
+services.services()
+government.government()
 #Reset.continuity(continuityReturn)
 
