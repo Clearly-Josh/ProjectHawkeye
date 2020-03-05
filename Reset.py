@@ -35,7 +35,7 @@ def Clones(boi):
 ##Clones End##
 
 ##Continuity Begin##
-def Continuity(lacapiton):
+def Continuity(): #lacapiton
   lacapiton = 50
   Hitler = 98.2
   if (lacapiton > Hitler):
@@ -47,30 +47,30 @@ def Continuity(lacapiton):
 
 
 ##Climate Beginning##
-def Climate(globalwarming):
+def Climate():  #globalwarming
   Water = 12
   Oxygen = 2
   if (Water >= 2):
     print("WATER CONTAMINATED, RESET INITIATED.")
-    del globalwarming
+    #del globalwarming
   else:
     print("WATER CLEAN, CONTINUE.")
   if (Oxygen >= 2):
     print("OXYGEN CONTAMINATED, RESET INITIATED.")
-    del globalwarming
+    #del globalwarming
   else:
     print("OXYGEN CLEAN, CONTINUE.")
 ##Climate End##
 
 ##Education Beginning##
-def Education(bigbrain):
+def Education():  #bigbrain
   Education = 1
   if (Education < 2):
     print("NOT SMART ENOUGH. GO BACK TO SCHOOL.")
-    del bigbrain
+    #del bigbrain
   else:
     print("CLONE OKAY.")
 ##Education End##
-Continuity(lacapiton)
-Climate(globalwarming)
-Education(bigbrain)
+Continuity()
+Climate()
+Education()
