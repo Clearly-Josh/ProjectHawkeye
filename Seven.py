@@ -1,5 +1,6 @@
+import Reset
 import Defeated
-from Clones import Cloning
+import Cloning
 #print("Seven is running..")
 
 headBadGuy = "방탄소년단"
@@ -7,6 +8,8 @@ headBadGuy = "방탄소년단"
 import pants
 #import Services
 #import government
+
+#Reset.reset1(str, int, chr)
 
 #1 - Hazel
 #Reset.Defense/Hazel(defense/hazelReturn)
