@@ -48,8 +48,6 @@ def Continuity(): #lacapiton
 
 ##Climate Beginning##
 def Climate():  #globalwarming
-  Water = 12
-  Oxygen = 2
   if (Water >= 2):
     print("WATER CONTAMINATED, RESET INITIATED.")
     #del globalwarming
@@ -64,14 +62,13 @@ def Climate():  #globalwarming
 
 ##Education Beginning##
 def Education():  #bigbrain
-  Education = 1
   if (Education < 2):
     print("NOT SMART ENOUGH. GO BACK TO SCHOOL.")
     #del bigbrain
   else:
     print("CLONE OKAY.")
 ##Education End##
-Continuity()
-Climate()
-Education()
+#Continuity()
+#Climate()
+#Education()
 
