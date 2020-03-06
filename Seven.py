@@ -1,13 +1,20 @@
 import Reset
 import Defeated
 import Clones
-print("Seven is running..")
-
-headBadGuy = "방탄소년단"
-
 import pants
 import services
 import government
+
+headBadGuy = "방탄소년단"
+IntegerOfAirQuality = 1
+IntegerOfWaterQuality = 1
+what_toadd = "All we have to decide is what to do with the time that is given us."
+knowledge_doc = ''
+cloneName = "Stacy"
+
+print()
+print("Seven is running..")
+print()
 
 #Reset.reset1(str, int, chr)
 
@@ -18,19 +25,18 @@ print(Defeated.bobStone(headBadGuy))
 
 #2 - Climate
 #September.function(IntegerOfAirQuality)
-#September.function2(IntegerOfAWaterQuality)
+#September.function2(IntegerOfWaterQuality)
 #Reset.Climate(climateReturn)
 
 
 
 #3 - Cloning
-#unkown call
 #Reset.Cloning(cloningReturn)
 clones = Clones.Cloning(100,2)
 
 
 #4 - Data
-#converter.converter(what_toadd, knowledge_doc)
+converter.converter(what_toadd, knowledge_doc)
 #^I think :/
 #Reset.Data(dataReturn)
 
@@ -39,7 +45,6 @@ clones = Clones.Cloning(100,2)
 #5 - Education
 #pants.education(cloneNum)
 #Reset.education(educationReturn)
-cloneName = "Stacy"
 pants.education(cloneName)
 
 
