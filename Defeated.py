@@ -7,7 +7,7 @@ def bobStone(nameGivenFromDriver):
     resultVariable = 0
   else:
     print("You have failed to stop the bad guys.")
-    resultVariable = 1
+    resultVariable = 0
 
 
     return resultVariable
