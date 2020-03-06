@@ -34,7 +34,7 @@ print()
 
 
 #2 - Climate
-#September.function(IntegerOfAirQuality)
+#eptember.function(IntegerOfAirQuality)
 
 #September.function2(IntegerOfAWaterQuality)
 
@@ -46,7 +46,7 @@ print()
 
 #3 - Cloning
 z = Clones.Cloning(500, 3)
-Reset.Clones(z)
+Reset.Clonesmeepmoop(z)
 
 
 

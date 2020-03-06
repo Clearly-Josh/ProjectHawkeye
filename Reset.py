@@ -4,41 +4,46 @@ import json
 ##Clones Beginning##
 def Clones(boi):
   x = json.loads(boi)
-  print(x)
-  print(x[0]['Strength'])
-def Clonessssss(boi):
-  ########Strength###################
-  if (boi[0] >= 90):
-    print ("Clones Strength - Uh-Oh")
-    print("_______________________")
-  elif (boi[0] >= 25):
-    print ("Clones Strength - Yes")
-    print("_______________________")
-  else:
-    print("Clones Strength - Uh-Oh")
-    print("_______________________")
+  for i in range (len(x)):
+    print(x[i]['Strength'])
+def Clonesmeepmoop(boi):
+	x = json.loads(boi)
+	for i in range(len(x)):
+	########Strength###################
+		print("_______________________")
+		print(x[i]['Name'])
+		if (x[i]['Strength'] >= 90):
+			print ("Clones Strength - UH-OH. CLONE STRENGTH TOO HIGH. RESET INITIATED.")
+			
+			print("_______________________")
+		elif (x[i]['Strength'] >= 25):
+			print ("Clones Strength - OKAY.")
+			print("_______________________")
+		else:
+			print("Clones Strength - UH-OH. CLONE STRENGTH TOO LOW. RESET INITIATED")
+			print("_______________________")
 
-  #########Intellect################
-  if (boi[1] >= 90):
-    print ("Clones Intellect - Uh-Oh")
-    print("_______________________")
-  elif (boi[1] >= 25):
-    print ("Clones Intellect - Yes")
-    print("_______________________")
-  else:
-    print("Clones Intellect - Uh-Oh")
-    print("_______________________")
+		#########Intellect################
+		if (x[i]['Intelligence'] >= 90):
+			print ("Clones Intellect - UH-OH. CLONE INTELLECT TOO HIGH. RESET INITIATED")
+			print("_______________________")
+		elif (x[i]['Intelligence'] >= 25):
+			print ("Clones Intellect - OKAY.")
+			print("_______________________")
+		else:
+			print("Clones Intellect - UH-OH. CLONE INTELLECT TOO LOW. RESET INITIATED")
+			print("_______________________")
 
-  #########Charisma##################
-  if (boi[2] >= 90):
-    print ("Clones Charisma - Uh-Oh")
-    print("_______________________")
-  elif (boi[2] >= 25):
-    print ("Clones Charisma - Yes")
-    print("_______________________")
-  else:
-    print("Clones Charisma - Uh-Oh")  
-    print("_______________________")
+		#########Charisma##################
+		if (x[i]['Charisma'] >= 90):
+			print ("Clones Charisma - UH-OH. CLONE CHARISMA TOO HIGH. RESET INITIATED")
+			print("_______________________")
+		elif (x[i]['Charisma'] >= 25):
+			print ("Clones Charisma - OKAY.")
+			print("_______________________")
+		else:
+			print("Clones Charisma - UH-OH. CLONE CHARISMA TOO LOW. RESET INITIATED")
+			print("_______________________")
 ##Clones End##
 
 ##Continuity Begin##

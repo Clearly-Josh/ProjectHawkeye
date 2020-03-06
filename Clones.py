@@ -130,7 +130,8 @@ def Cloning(AmountofClones, Generations):
         x = {
             'Strength': Clones[i].strength,
             'Intelligence': Clones[i].intelligence,
-            'Charisma': Clones[i].charisma
+            'Charisma': Clones[i].charisma,
+			'Name': Clones[i].name
         }
         y.append(x)
     z = json.dumps(y)#Puts it all in a dictionary then into Json
