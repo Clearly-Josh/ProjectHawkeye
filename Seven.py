@@ -1,5 +1,5 @@
 
-#print("Seven is running..")
+print("Seven is running..")
 
 headBadGuy = "방탄소년단"
 
@@ -45,9 +45,8 @@ print()
 
 
 #3 - Cloning
-
-#unkown call
-#Reset.Cloning(cloningReturn)
+z = Clones.Cloning(500, 3)
+Reset.Clones(z)
 
 
 
@@ -59,7 +58,7 @@ print()
 
 
 #4 - Data
-converter.converter(what_toadd, knowledge_doc)
+#converter.converter(what_toadd, knowledge_doc)
 
 #^I think :/
 #Reset.Data(dataReturn)
@@ -70,7 +69,7 @@ converter.converter(what_toadd, knowledge_doc)
 #pants.education(cloneNum)
 #Reset.education(educationReturn)
 
-cloneName = "Stacy"
+cloneName = "Stacy's mom"
 
 
 #pants.education(cloneName)

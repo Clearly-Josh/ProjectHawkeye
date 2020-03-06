@@ -1,5 +1,12 @@
+import json
+
+
 ##Clones Beginning##
 def Clones(boi):
+  x = json.loads(boi)
+  print(x)
+  print(x[0]['Strength'])
+def Clonessssss(boi):
   ########Strength###################
   if (boi[0] >= 90):
     print ("Clones Strength - Uh-Oh")
@@ -71,4 +78,3 @@ def Education():  #bigbrain
 #Continuity()
 #Climate()
 #Education()
-

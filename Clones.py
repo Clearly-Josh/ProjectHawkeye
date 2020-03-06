@@ -122,9 +122,9 @@ def Cloning(AmountofClones, Generations):
                 print('Intelligence: ', Clones[i].intelligence)
                 print('Charisma: ', Clones[i].charisma)
                 print('Age: ', Clones[i].age)
-    print(len(Clones))
-    print(Corpses)
-    print(len(Clones)+Corpses)
+    print('Amount of Clones: ', len(Clones))
+    print('Amount of Corpses', Corpses)
+    print('Amount of Corpses and Clones',len(Clones)+Corpses)
     y = []
     for i in range(len(Clones)):
         x = {
