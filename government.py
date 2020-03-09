@@ -96,8 +96,8 @@ def government():
     clone_num = (clone_num + 1)
     print(clone_num)
     president = percent
-    if percent >= .926:
-      pres = ("President candidate is clone number " , clone_num)
+    if percent >= .626:
+      pres = (clone_num)
   #///////////////////////////////////////////
   #///////////////////////////////////////////
   president = 0
@@ -194,7 +194,7 @@ def government():
     print(clone_num)
     president = percent
     if percent >= .91:
-      vice = ("Vice President of State candidate is clone number " , clone_num)
+      vice = (clone_num)
   #///////////////////////////////////////////
   #///////////////////////////////////////////
   president = 0
@@ -291,7 +291,7 @@ def government():
     print(clone_num)
     president = percent
     if percent >= .9:
-      state = ("Secretary of State candidate is clone number " , clone_num)
+      state = (clone_num)
   #///////////////////////////////////////////
   #///////////////////////////////////////////
   president = 0
@@ -388,7 +388,7 @@ def government():
     print(clone_num)
     president = percent
     if percent >= .9:
-      treasury = ("Secretary of Treasury candidate is clone number " , clone_num)
+      treasury = (clone_num)
   #///////////////////////////////////////////
   #///////////////////////////////////////////
   president = 0
@@ -485,7 +485,7 @@ def government():
     print(clone_num)
     president = percent
     if percent >= .9:
-      defense = ("Secretary of Defense candidate is clone number " , clone_num)
+      defense = (clone_num)
   #///////////////////////////////////////////
   #///////////////////////////////////////////
   president = 0
@@ -582,7 +582,7 @@ def government():
     print(clone_num)
     president = percent
     if percent >= .9:
-      commerce = ("Secretary of Commerce candidate is clone number " , clone_num)
+      commerce = (clone_num)
   #///////////////////////////////////////////
   #///////////////////////////////////////////
   president = 0
@@ -678,12 +678,15 @@ def government():
     print(clone_num)
     president = percent
     if percent >= .88:
-      general = ("Attorney General candidate is clone number " , clone_num)
+      general = (clone_num)
   #///////////////////////////////////////////
   #///////////////////////////////////////////
   print(" ")
   time.sleep(2)
   print(pres)
+  ##
+  return pres
+  ##
   time.sleep(2)
   print(vice)
   time.sleep(2)
@@ -705,5 +708,4 @@ def government():
   sec_of_def = "Secretary of Defense"
   sec_of_comm = "Secretary of Commerce"
   att_gen = "Attorney General"
-
 
