@@ -15,8 +15,10 @@ conv2 = ''
 
 knowledge = 'The_meaning_is_forty_two'
 
+conv_knowledge = ''.join(format(ord(i), 'b') for i in knowledge)
+
+
 def converter(knowledge, conv2):
-  conv_knowledge = ''.join(format(ord(i), 'b') for i in knowledge)
   
   response = input('''Would you like to retrieve the entire database of human knowledge or not?
 ''')

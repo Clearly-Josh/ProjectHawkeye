@@ -45,23 +45,15 @@ print()
 
 
 #3 - Cloning
-z = Clones.Cloning(500, 3)
-Reset.Clonesmeepmoop(z)
+#z = Clones.Cloning(500, 3)
+#Reset.Clonesmeepmoop(z)
 
 
 
 #4 - Data
-#converter.converter(what_toadd, knowledge_doc)
-
-#Reset.Cloning(cloningReturn)
-#clones = Clones.Cloning(100,2)
-
-
-#4 - Data
-#converter.converter(what_toadd, knowledge_doc)
-
-#^I think :/
-#Reset.Data(dataReturn)
+dataReturn = converter.converter(what_toadd, knowledge_doc)
+print(dataReturn)
+Reset.Data(dataReturn)
 
 
 
