@@ -97,7 +97,7 @@ def government():
     print(clone_num)
     president = percent
     if percent >= .626:
-      pres = (clone_num)
+      pres = (percent)
   #///////////////////////////////////////////
   #///////////////////////////////////////////
   president = 0
@@ -194,7 +194,7 @@ def government():
     print(clone_num)
     president = percent
     if percent >= .91:
-      vice = (clone_num)
+      vice = (percent)
   #///////////////////////////////////////////
   #///////////////////////////////////////////
   president = 0
@@ -291,7 +291,7 @@ def government():
     print(clone_num)
     president = percent
     if percent >= .9:
-      state = (clone_num)
+      state = (percent)
   #///////////////////////////////////////////
   #///////////////////////////////////////////
   president = 0
@@ -388,7 +388,7 @@ def government():
     print(clone_num)
     president = percent
     if percent >= .9:
-      treasury = (clone_num)
+      treasury = (percent)
   #///////////////////////////////////////////
   #///////////////////////////////////////////
   president = 0
@@ -485,7 +485,7 @@ def government():
     print(clone_num)
     president = percent
     if percent >= .9:
-      defense = (clone_num)
+      defense = (percent)
   #///////////////////////////////////////////
   #///////////////////////////////////////////
   president = 0
@@ -582,7 +582,7 @@ def government():
     print(clone_num)
     president = percent
     if percent >= .9:
-      commerce = (clone_num)
+      commerce = (percent)
   #///////////////////////////////////////////
   #///////////////////////////////////////////
   president = 0
@@ -678,15 +678,16 @@ def government():
     print(clone_num)
     president = percent
     if percent >= .88:
-      general = (clone_num)
+      general = (percent)
   #///////////////////////////////////////////
   #///////////////////////////////////////////
+  
   print(" ")
+  print("--- %s seconds ---" % (time.time() - start_time))
+  print(" ")
+
   time.sleep(2)
   print(pres)
-  ##
-  return pres
-  ##
   time.sleep(2)
   print(vice)
   time.sleep(2)
@@ -699,8 +700,11 @@ def government():
   print(commerce)
   time.sleep(2)
   print(general)
+  
+  
+  return pres
 
-  print("--- %s seconds ---" % (time.time() - start_time))
+  
   President = "President"
   VP = "Vice President"
   sec_of_state = "Secretary of State"
@@ -708,4 +712,3 @@ def government():
   sec_of_def = "Secretary of Defense"
   sec_of_comm = "Secretary of Commerce"
   att_gen = "Attorney General"
-

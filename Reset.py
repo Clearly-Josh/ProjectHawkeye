@@ -48,7 +48,6 @@ def Clonesmeepmoop(boi):
 
 ##Continuity Begin##
 def Continuity(lacapiton): 
-  lacapiton = 50
   Hitler = 98.2
   if (lacapiton > Hitler):
     print("LEADER TOO POWERFUL. RESET INITIATED.")
