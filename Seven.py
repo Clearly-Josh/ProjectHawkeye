@@ -14,9 +14,10 @@ import pants
 import services
 import government
 import converter
+import September
 
 headBadGuy = "방탄소년단"
-IntegerOfAirQuality = 1
+IntegerOfAirQuality = 3
 IntegerOfWaterQuality = 1
 what_toadd = "All we have to decide is what to do with the time that is given us."
 knowledge_doc = ''
@@ -35,7 +36,7 @@ print()
 
 
 #2 - Climate
-#eptember.function(IntegerOfAirQuality)
+September.air(IntegerOfAirQuality)
 
 #September.function2(IntegerOfAWaterQuality)
 
@@ -52,8 +53,8 @@ print()
 
 
 #4 - Data
-dataReturn = converter.converter(what_toadd, knowledge_doc)
-print(dataReturn)
+#dataReturn = converter.converter(what_toadd, knowledge_doc)
+#print(dataReturn)
 #Reset.Data(dataReturn)
 
 
