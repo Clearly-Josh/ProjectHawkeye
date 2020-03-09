@@ -15,39 +15,39 @@ def Clonesmeepmoop(boi):
 		if (x[i]['Strength'] >= 90):
 			print ("Clones Strength - UH-OH. CLONE STRENGTH TOO HIGH. RESET INITIATED.")
 			
-			print("_______________________")
+			print("")
 		elif (x[i]['Strength'] >= 25):
 			print ("Clones Strength - OKAY.")
-			print("_______________________")
+			print("")
 		else:
 			print("Clones Strength - UH-OH. CLONE STRENGTH TOO LOW. RESET INITIATED")
-			print("_______________________")
+			print("")
 
 		#########Intellect################
 		if (x[i]['Intelligence'] >= 90):
 			print ("Clones Intellect - UH-OH. CLONE INTELLECT TOO HIGH. RESET INITIATED")
-			print("_______________________")
+			print("")
 		elif (x[i]['Intelligence'] >= 25):
 			print ("Clones Intellect - OKAY.")
-			print("_______________________")
+			print("")
 		else:
 			print("Clones Intellect - UH-OH. CLONE INTELLECT TOO LOW. RESET INITIATED")
-			print("_______________________")
+			print("")
 
 		#########Charisma##################
 		if (x[i]['Charisma'] >= 90):
 			print ("Clones Charisma - UH-OH. CLONE CHARISMA TOO HIGH. RESET INITIATED")
-			print("_______________________")
+			print("")
 		elif (x[i]['Charisma'] >= 25):
 			print ("Clones Charisma - OKAY.")
-			print("_______________________")
+			print("")
 		else:
 			print("Clones Charisma - UH-OH. CLONE CHARISMA TOO LOW. RESET INITIATED")
-			print("_______________________")
+			print("")
 ##Clones End##
 
 ##Continuity Begin##
-def Continuity(): #lacapiton
+def Continuity(lacapiton): 
   lacapiton = 50
   Hitler = 98.2
   if (lacapiton > Hitler):

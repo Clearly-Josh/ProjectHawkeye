@@ -1,4 +1,5 @@
 
+
 print("Seven is running..")
 
 headBadGuy = "방탄소년단"
@@ -53,7 +54,7 @@ print()
 #4 - Data
 dataReturn = converter.converter(what_toadd, knowledge_doc)
 print(dataReturn)
-Reset.Data(dataReturn)
+#Reset.Data(dataReturn)
 
 
 
@@ -71,7 +72,7 @@ cloneName = "Stacy's mom"
 
 #Services.services(unknownArg)
 #government.government(unknownArg)
-#Reset.continuity(continuityReturn)
+Reset.Continuity(continuityReturn)
 
 #services.services()
 #government.government()
