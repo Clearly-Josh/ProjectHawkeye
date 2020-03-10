@@ -37,4 +37,4 @@ def converter(knowledge, conv2):
   else:
     print("I'll take that unknown response as a no and, thus, shan't print out the knowledge")
     return ''
-#print(converter(knowledge, conv2))
+print(converter(knowledge, conv2))

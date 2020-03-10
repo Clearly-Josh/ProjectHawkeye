@@ -79,6 +79,12 @@ def Education():  #bigbrain
   else:
     print("CLONE OKAY.")
 ##Education End##
+def Data(dataReturn):
+  if(dataReturn == 'The_meaning_is_forty_two'):
+    print("Gucci Flip Flops")
+  else:
+    print("THIS IS NOT GUCCI FLIP FLOPS")
+    del dataReturn
 #Continuity()
 #Climate()
 #Education()

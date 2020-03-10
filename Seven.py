@@ -36,9 +36,9 @@ print()
 
 
 #2 - Climate
-September.air(IntegerOfAirQuality)
+#September.air(IntegerOfAirQuality)
 
-September.water(IntegerOfWaterQuality)
+#September.water(IntegerOfWaterQuality)
 
 #September.function2(IntegerOfWaterQuality)
 
@@ -53,9 +53,9 @@ September.water(IntegerOfWaterQuality)
 
 
 #4 - Data
-#dataReturn = converter.converter(what_toadd, knowledge_doc)
-#print(dataReturn)
-#Reset.Data(dataReturn)
+dataReturn = converter.converter(what_toadd, knowledge_doc)
+print(dataReturn)
+Reset.Data(dataReturn)
 
 
 
