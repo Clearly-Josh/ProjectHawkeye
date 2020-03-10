@@ -58,15 +58,17 @@ def Continuity(lacapiton):
 
 
 ##Climate Beginning##
-def Climate():  #globalwarming
-  if (Water >= 2):
+def ClimateB(climateReturnB):
+  if (climateReturnB == 1):
     print("WATER CONTAMINATED, RESET INITIATED.")
-    #del globalwarming
+    del climateReturn
   else:
-    print("WATER CLEAN, CONTINUE.")
-  if (Oxygen >= 2):
+    print("WATER IS PRETTY GUD DUD!")
+
+def Climate(climateReturn):
+  if (climateReturn == 1):
     print("OXYGEN CONTAMINATED, RESET INITIATED.")
-    #del globalwarming
+    del climateReturn
   else:
     print("OXYGEN CLEAN, CONTINUE.")
 ##Climate End##

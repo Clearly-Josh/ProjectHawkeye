@@ -5,7 +5,7 @@ print("Seven is running..")
 headBadGuy = "방탄소년단"
 
 #import Services
-#import government
+import government
 
 import Reset
 import Defeated
@@ -17,8 +17,8 @@ import converter
 import September
 
 headBadGuy = "방탄소년단"
-IntegerOfAirQuality = 5
-IntegerOfWaterQuality = 5
+IntegerOfAirQuality = 1
+IntegerOfWaterQuality = 1
 what_toadd = "All we have to decide is what to do with the time that is given us."
 knowledge_doc = ''
 cloneName = "Stacy"
@@ -36,19 +36,20 @@ print()
 
 
 #2 - Climate
-#September.air(IntegerOfAirQuality)
+climateReturn = September.air(IntegerOfAirQuality)
 
-#September.water(IntegerOfWaterQuality)
+climateReturnB = September.water(IntegerOfWaterQuality)
 
 #September.function2(IntegerOfWaterQuality)
 
-#Reset.Climate(climateReturn)
+Reset.Climate(climateReturn)
+Reset.ClimateB(climateReturnB)
 
 
 
 #3 - Cloning
-#z = Clones.Cloning(500, 3)
-#Reset.Clonesmeepmoop(z)
+z = Clones.Cloning(500, 3)
+Reset.Clonesmeepmoop(z)
 
 
 
@@ -60,23 +61,23 @@ Reset.Data(dataReturn)
 
 
 #5 - Education
-#pants.education(cloneNum)
-#Reset.education(educationReturn)
+pants.education(cloneNum)
+Reset.education(educationReturn)
 
 cloneName = "Stacy's mom"
 
 
-#pants.education(cloneName)
+pants.education(cloneName)
 
 
 #6 - Continuity
 
-#Services.services(unknownArg)
-#government.government(unknownArg)
-#Reset.Continuity(continuityReturn)
+Services.services(unknownArg)
+government.government(unknownArg)
+Reset.Continuity(continuityReturn)
 
-#services.services()
-#government.government()
-#Reset.continuity(continuityReturn)
+services.services()
+government.government()
+Reset.continuity(continuityReturn)
 
 
