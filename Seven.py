@@ -17,8 +17,8 @@ import converter
 import September
 
 headBadGuy = "방탄소년단"
-IntegerOfAirQuality = 3
-IntegerOfWaterQuality = 1
+IntegerOfAirQuality = 5
+IntegerOfWaterQuality = 5
 what_toadd = "All we have to decide is what to do with the time that is given us."
 knowledge_doc = ''
 cloneName = "Stacy"
@@ -38,7 +38,7 @@ print()
 #2 - Climate
 September.air(IntegerOfAirQuality)
 
-#September.function2(IntegerOfAWaterQuality)
+September.water(IntegerOfWaterQuality)
 
 #September.function2(IntegerOfWaterQuality)
 
