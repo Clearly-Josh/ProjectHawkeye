@@ -61,13 +61,10 @@ Reset.Data(dataReturn)
 
 
 #5 - Education
-pants.education(cloneNum)
-Reset.education(educationReturn)
-
 cloneName = "Stacy's mom"
+educationReturn = pants.education(cloneName)
+Reset.Education(educationReturn)
 
-
-pants.education(cloneName)
 
 
 #6 - Continuity

@@ -74,8 +74,8 @@ def Climate(climateReturn):
 ##Climate End##
 
 ##Education Beginning##
-def Education():  #bigbrain
-  if (Education < 2):
+def Education(intelligence):  #bigbrain
+  if (intelligence < 2):
     print("NOT SMART ENOUGH. GO BACK TO SCHOOL.")
     #del bigbrain
   else:
